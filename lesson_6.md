@@ -134,7 +134,15 @@ sudo systemctl show -p MainPID myapp.service | cut -d'=' -f2 | xargs -I{} ps -o 
 ```bash
 journalctl -u myapp.service
 ```
-<img width="1142" height="333" alt="image" src="https://github.com/user-attachments/assets/78c15b5d-ce21-414e-954c-aeffb79f1aad" />
+<img width="925" height="1355" alt="image" src="https://github.com/user-attachments/assets/5a8508d7-a175-4864-8a6d-f279a239d005" />
+
+Победить ощибку не удалось(Вывод:
+
+systemd с сервисом всё ок, он перезапускает падения.
+
+Основная проблема — ошибка в Node.js: throw new Error('Someone kills me'). Надо править логику обработки POST-запросов в index.js.
+
+Мелкие предупреждения systemd (Stan>) можно проигнорировать, но лучше глянуть строки 11–12 юнита.)
 
 18) Добавил в конфигурацию сервис-юнита строки для настройки вывода процесса в syslog:
 ```text
@@ -161,7 +169,8 @@ sudo systemctl restart myapp.service
 ```bash
 sudo cat /var/log/myapp/debug.log
 ```
-<img width="868" height="89" alt="image" src="https://github.com/user-attachments/assets/83ac93ea-3944-4bdc-adfc-34cc00642943" />
+<img width="586" height="179" alt="image" src="https://github.com/user-attachments/assets/c4f75499-4197-426f-9a45-1d9730c68446" />
+
 
 22) Изменил конфигурацию сервис-юнита для вывода в разные файлы (в зависимости от уровня severity):
 ```text
@@ -196,4 +205,4 @@ sudo cat /var/log/myapp/debug.log
 ```bash
 sudo cat /var/log/myapp/error.log
 ```
-<img width="874" height="158" alt="image" src="https://github.com/user-attachments/assets/dfc6a6c9-b30c-4239-ba34-53cc227777b9" />
+
