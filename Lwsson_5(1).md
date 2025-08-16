@@ -80,7 +80,8 @@
 #### 9. Увеличить размер LV под данными postgres
 
 <img width="919" height="52" alt="image" src="https://github.com/user-attachments/assets/6e42dcc9-718b-4939-92f4-2b95bc248075" />
-<img width="851" height="309" alt="image" src="https://github.com/user-attachments/assets/4869c421-4664-4549-b5f3-e1f3cfb47c1f" />
+<img width="773" height="301" alt="image" src="https://github.com/user-attachments/assets/af371e34-7ab0-456b-8e28-8cfe5772a198" />
+
 
 ---
 
