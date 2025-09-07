@@ -146,21 +146,26 @@
    sudo apt install nginx -y
    ```
 2) Проверил что nginx запущен:
-   <img width="1312" height="356" alt="image" src="https://github.com/user-attachments/assets/c9bfd429-1e68-434d-94c0-af1648660fa3" />
-   <img width="1377" height="112" alt="image" src="https://github.com/user-attachments/assets/fcaaa8bc-e314-4279-9a1b-4d3050276636" />
+  <img width="938" height="337" alt="image" src="https://github.com/user-attachments/assets/8c43e28d-1ea1-4684-a87b-829c784a4139" />
+
+  <img width="866" height="94" alt="image" src="https://github.com/user-attachments/assets/0dead0d1-b130-4753-b6b1-1b07cd6fc422" />
+
 
 3) Посмотрел логи nginx:
 
-   <img width="761" height="112" alt="image" src="https://github.com/user-attachments/assets/02796265-6da0-417d-8b23-94ea31563291" />
+  <img width="668" height="198" alt="image" src="https://github.com/user-attachments/assets/04428d04-57c0-4cda-8b95-7e05c89affc2" />
+
 
 5) Посмотрел уровень нагрузки на ОС:
    ```bash
    htop
    ```
-   <img width="1331" height="463" alt="image" src="https://github.com/user-attachments/assets/a312a942-30eb-4869-9a98-63a417e9c4be" />
+  <img width="948" height="344" alt="image" src="https://github.com/user-attachments/assets/20536679-2b0a-485e-b3d0-079fcf0765c1" />
+
 
 6) Посмотрел логи действий пользователей системы:
    ```bash
    sudo journalctl -b
    ```
-   <img width="1472" height="396" alt="image" src="https://github.com/user-attachments/assets/f4a665fc-6e7e-4054-bd40-e39da17749b7" />
+  <img width="1380" height="287" alt="image" src="https://github.com/user-attachments/assets/faea57ae-60cf-4b64-954a-6a7931e4f406" />
+
