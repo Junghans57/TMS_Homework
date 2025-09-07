@@ -84,9 +84,8 @@
 4) Включил отображение номеров строк:
    ```bash
    :set number
-   <img width="545" height="217" alt="image" src="https://github.com/user-attachments/assets/b7b5e712-00aa-4a24-872b-0563af4a82e3" />
-
    ```
+   <img width="545" height="217" alt="image" src="https://github.com/user-attachments/assets/b7b5e712-00aa-4a24-872b-0563af4a82e3" />
   
 5) Заменил слово WORD на IGNORE:
    ```bash
