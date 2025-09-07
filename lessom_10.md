@@ -85,7 +85,7 @@
    ```bash
    :set number
    ```
-   <img width="551" height="226" alt="image" src="https://github.com/user-attachments/assets/e9d50c12-ae5b-405e-9659-6624d37340ad" />
+  
 5) Заменил слово WORD на IGNORE:
    ```bash
    :%s/WORD/IGNORE/gc
