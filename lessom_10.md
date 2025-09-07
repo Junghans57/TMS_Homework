@@ -132,6 +132,9 @@
     :q!
     ```
 13) Проверил что файл testcase.c не изменился:
+<img width="540" height="1288" alt="image" src="https://github.com/user-attachments/assets/65ff36a9-33ee-463f-868a-49937cfec9cb" />
+<img width="486" height="368" alt="image" src="https://github.com/user-attachments/assets/cf6ffe74-23bb-44c0-9ad3-2321c8d05146" />
+
 
 
 
